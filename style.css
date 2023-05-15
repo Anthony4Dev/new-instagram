@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Insta';
+    src: url('./fonts/Demo_Fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf ') format('opentype');
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(183, 182, 182);
+}
+
+main {
+    background-color: #fff;
+    width: 31%;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.firstbar {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 15px;
+    position: fixed;
+    width: 30%;
+}
+
+.navbar h1 {
+    font-family: 'Insta';
+    font-weight: normal;
+}
+
+#heart {
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+#camera {
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+
+.stories {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    cursor: pointer;
+}
+
+.userstory {
+    margin-top: 59px;
+}
+
+.userstory img {
+    border-radius: 50%;
+    border: solid 2px rgb(215, 127, 5);
+    cursor: pointer;
+}
+
+.userstory p {
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    width: 27%;
+}
+
+#like {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#comment {
+    color: rgb(118, 116, 116);
+    cursor: pointer;
+}
+
+#dots {
+    margin-left: 88%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 30%;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+}
+
+#profile_nav img {
+    border-radius: 50%;
+    border: solid 2px rgb(215, 127, 5);
+}
+
+.soad {
+    margin-bottom: 60px;
+}
+
+.bio {
+    margin-left: 10px;
+}
+
+#profile_nav {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img {
+    border-radius: 50%;
+    border: solid 2px rgb(215, 127, 5);
+}
+
+#reels {
+    cursor: pointer;
+}
+
+#home_nav {
+    cursor: pointer;
+}
+
+#search_nav {
+    cursor: pointer;
+}
+
+#post_nav {
+    cursor: pointer;
+}
